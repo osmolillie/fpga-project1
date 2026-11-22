@@ -1,0 +1,74 @@
+# =========================================
+# Python & Cocotb Specific Artifacts
+# ==========================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Pytest & Cocotb Test Results
+.pytest_cache/
+results.xml
+combined_results.xml
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# Cocotb / Simulator Waveforms & Outputs
+*.vcd
+*.fst
+*.fst.hier
+*.wlf
+*.vvp
+*.log
+sim_build/
+ucli.key
+*.vstf
+
+# ==========================================
+# FPGA Toolchain Build Artifacts
+# ==========================================
+
+# --- Xilinx Vivado ---
+*.jou
+*.log
+*.str
+*.bit
+*.bin
+*.rpt
+*.dcp
+*.xpr
+.ip_user_files/
+.sim/
+.synth/
+.hw/
+*.backup*
+
+# --- Intel/Altera Quartus ---
+db/
+incremental_db/
+output_files/
+simulation/
+*.sof
+*.pof
+
+# --- General Build Directories ---
+build/
+**/build/
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
